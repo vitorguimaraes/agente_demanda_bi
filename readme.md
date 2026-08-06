@@ -87,15 +87,15 @@ Recomendado o **Agent Builder** do Microsoft 365 Copilot (no-code), ideal para a
 ### Passo a passo
 
 1. **Abra o criador** — No app do M365 Copilot, vá em **Agents → New Agent** e escolha a aba **Configure**.
-2. **Cole as instruções** — Copie o conteúdo de `instrucoes/Instrucoes-Agente-Copilot.md` no campo **Instructions**.
+2. **Cole as instruções** — Copie o conteúdo de `Instrucoes-Agente-Copilot.md` no campo **Instructions**.
 3. **Defina nome e descrição:**
    - **Nome:** `Assistente de Demanda de Painéis — NID`
    - **Descrição:** *Assistente do Núcleo de Inteligência de Dados que atua como Líder Técnico de BI. Entrevista o analista solicitante, questiona respostas vagas e gera uma Ficha de Demanda de Painel clara e curada — eliminando idas e vindas e reuniões de levantamento.*
 4. **Adicione os knowledge sources** — No botão **+ / Add knowledge**, envie os dois arquivos de conhecimento (um de cada vez). Dê uma descrição a cada um.
 5. **Configure os starter prompts:**
    - "Preciso de um painel, por onde começo?"
-   - "Quero acompanhar os atendimentos das unidades."
    - "Me ajude a montar a demanda para o Núcleo de Dados."
+   - "Quero acompanhar os atendimentos."
 6. **Teste na aba "Try it"** — Simule um analista com respostas vagas ("quero acompanhar o atendimento") e verifique se o agente **critica e não avança**.
 7. **Publique e compartilhe** com a organização ou com o grupo de analistas.
 
@@ -129,12 +129,6 @@ Recomendado o **Agent Builder** do Microsoft 365 Copilot (no-code), ideal para a
 
 ---
 
-## 📄 Licença
-
-Defina a licença do projeto conforme a política da sua organização (ex.: MIT para uso aberto, ou uma licença interna). Substitua esta seção pelo texto adequado.
-
----
-
 ## ✍️ Créditos
 
-Desenvolvido pelo **Núcleo de Inteligência de Dados** para padronizar e qualificar a entrada de demandas de painéis de Power BI.
+Desenvolvido pelo **Núcleo de Inteligência de Dados** para padronizar e qualificar a entrada de demandas de BI.
