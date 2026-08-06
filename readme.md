@@ -63,13 +63,9 @@ A cada resposta, o agente aplica um filtro. Se a resposta falhar em qualquer ite
 ```
 .
 ├── README.md                                   # Este arquivo
-├── instrucoes/
-│   └── Instrucoes-Agente-Copilot.md            # Instruções do agente (campo "Instructions")
-├── conhecimento/
-│   ├── Template-Levantamento-Painel-BI.md      # Roteiro completo (knowledge source)
-│   └── Exemplo-Preenchido-Levantamento.md      # Entrevista de exemplo + ficha (knowledge source)
-└── docs/
-    └── (opcional) versões .pdf / .docx para upload
+├── Instrucoes-Agente-Copilot.md            # Instruções do agente (campo "Instructions")
+├── Template-Levantamento-Painel-BI.md      # Roteiro completo (knowledge source)
+├──Exemplo-Preenchido-Levantamento.md      # Entrevista de exemplo + ficha (knowledge source)
 ```
 
 | Arquivo | Papel no agente |
