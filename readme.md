@@ -39,12 +39,16 @@ O agente separa **diagnóstico** de **execução**. A inteligência mora na Cama
 │  HIPÓTESE DE SOLUÇÃO → validada com o solicitante │
 └───────────────────────────────────────────────────┘
                      ↓ (roteamento por sinais)
-┌─────────────────────────────────────────────────────────────┐
-│  CAMADA 2 — APROFUNDAMENTO (só o bloco da solução escolhida)│
-│  A. Painel de BI   B. Automação    C. Agente de IA          │
-│  D. Micro-app      E. Pipeline/ETL F. Análise pontual       │
-│  G. Encaminhamento (fora do escopo → não aprofunda)         │
-└─────────────────────────────────────────────────────────────┘
+┌──────────────────────────────────────────────────────────────┐
+│  CAMADA 2 — APROFUNDAMENTO (só o bloco da solução escolhida) │
+│  A. Painel de BI                                             │
+│  B. Automação                                                │
+│  C. Agente de IA                                             │
+│  D. Micro-app                                                │ 
+│  E. Pipeline/ETL                                             │
+│  F. Análise pontual                                          │
+│  G. Encaminhamento (fora do escopo → não aprofunda)          │
+└──────────────────────────────────────────────────────────────┘
                      ↓
         FICHA DE DEMANDA DE SOLUÇÃO (com recomendação e escopo)
 ```
