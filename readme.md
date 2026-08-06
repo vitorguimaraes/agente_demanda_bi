@@ -26,20 +26,23 @@ Este projeto desloca o **diagnóstico da necessidade** para um agente de IA que 
 O agente separa **diagnóstico** de **execução**. A inteligência mora na Camada 1; a Camada 2 apenas aprofunda no tipo já identificado.
 
 ```
-┌─────────────────────────────────────────────────────────────┐
-│  CAMADA 1 — DIAGNÓSTICO (agnóstica à solução)                │
-│  1. Identificação        5. Recorrência / interatividade     │
-│  2. Problema (a dor)      6. Realidade dos dados             │
-│  3. Decisão esperada      7. Esforço vs. valor              │
-│  4. Ação vs. visão                                          │
-│                     ↓                                        │
-│  HIPÓTESE DE SOLUÇÃO → validada com o solicitante           │
-└─────────────────────────────────────────────────────────────┘
+┌───────────────────────────────────────────────────┐
+│  CAMADA 1 — DIAGNÓSTICO (agnóstica à solução)     │
+│  1. Identificação                                 │
+│  2. Problema (a dor)                              │
+│  3. Decisão esperada                              │
+│  4. Ação vs. visão                                │
+|  5. Recorrência / interatividade                  │
+|  6. Realidade dos dados                           │ 
+|  7. Esforço vs. valor                             │
+│                     ↓                             │
+│  HIPÓTESE DE SOLUÇÃO → validada com o solicitante │
+└───────────────────────────────────────────────────┘
                      ↓ (roteamento por sinais)
 ┌─────────────────────────────────────────────────────────────┐
-│  CAMADA 2 — APROFUNDAMENTO (só o bloco da solução escolhida) │
-│  A. Painel de BI   B. Automação    C. Agente de IA           │
-│  D. Micro-app      E. Pipeline/ETL F. Análise pontual        │
+│  CAMADA 2 — APROFUNDAMENTO (só o bloco da solução escolhida)│
+│  A. Painel de BI   B. Automação    C. Agente de IA          │
+│  D. Micro-app      E. Pipeline/ETL F. Análise pontual       │
 │  G. Encaminhamento (fora do escopo → não aprofunda)         │
 └─────────────────────────────────────────────────────────────┘
                      ↓
